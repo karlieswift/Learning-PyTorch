@@ -1,13 +1,12 @@
 # Learning-PyTorch
 The main content of this project: CNN RNN LSTM....... and so on.
-
 # RNN-LSTM code introduce
 ## 项目的描述：
 ### 数据描述：
 #### 1-首先从数据网站 https://ai.stanford.edu/~amaas/data/sentiment/    下载数据
 #### 2-解压数据分为train和test文件夹,每个文件夹下有pos和neg文件夹,每个文件夹各有12500个.txt文件，共50000数据
 
-目的：通过rnn,lstm进行分类,数据是neg or pos
+## 目的：通过rnn,lstm进行分类,数据是neg or pos
 
 ### 思路介绍：
 #### 1.首先拿到的数据是字符串，我们将字符串进行处理，转换为数字进行分析，我们将这种数字和字符串之间的关系存入一个文件保存，便于下次直接使用。、
