@@ -2,7 +2,7 @@
  Env: /anaconda3/python3.7
  Time: 2021/7/14 20:43
  Author: karlieswfit
- File: loss_func.py
+ File: loss_funcion.py
  Describe: pytorch的损失函数NLLLoss（nll_loss()）和CrossEntropyLoss
  CrossEntropyLoss是将LogSoftmax和NLLLoss集成到一个类别中去
  Softmax+log+NLLLoss=CrossEntropyLoss
