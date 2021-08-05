@@ -46,6 +46,12 @@ class Net(nn.Module):
         # 冻结vgg16 classifier前的参数
         for param in self.vgg16.parameters():
             param.requires_grad=False
+
+        # # todo 让前三层参与参数更新
+        # for i in range(3):
+        #     for param in self.vgg16.features[i].parameters():
+        #         param.requires_grad = True
+
         for param in self.vgg16.classifier.parameters():
             param.requires_grad=True
 
